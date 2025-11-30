@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0-orange)
 ![Status](https://img.shields.io/badge/Status-Research%20Prototype-success)
-![Kaggle Competition](https://www.kaggle.com/competitions/aio2025liverseg/overview)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Competition-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/competitions/aio2025liverseg/overview)
 
 ## 📌 Project Overview
 This project focuses on the automated segmentation of liver tumors from CT scans. Accurate segmentation is critical for treatment planning and monitoring disease progression. The challenge lies in the low contrast between liver tissue and tumors, as well as the variability in tumor shapes and the high number of "empty" (non-liver) slices in abdominal scans.
@@ -64,4 +64,5 @@ I approached this problem by iterating through four distinct architectural strat
 1. Clone the repository:
    ```bash
    git clone https://github.com/KhoaLeQuangMinh/Liver_Segmentation.git
+
 
