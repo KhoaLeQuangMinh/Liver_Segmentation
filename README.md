@@ -34,7 +34,7 @@ I approached this problem by iterating through four distinct architectural strat
 *   *Status:* `notebooks/LTS_version3.ipynb`
 
 ### Experiment 4: Cascade Classifier & Specialist Ensemble (🏆 Best Performance)
-*   **Hypothesis:** A single model struggles to balance "finding the liver" and "segmenting the tumor." A specialized pipeline should perform better (I got this idea from @NDK2212 and I want to apply the classification with my current version 2 pipeline).
+*   **Hypothesis:** A single model struggles to balance "finding the liver" and "segmenting the tumor." A specialized pipeline should perform better (I got this idea from @NDK2212, Nguyen Duc Khang from AIMA Warm-up Program, and I want to apply the classification with my current version 2 pipeline).
 *   **Approach:** Designed a multi-stage **Cascade Pipeline**:
     1.  **Slice Classification:** A lightweight binary classifier filters slices as "Liver-containing" vs. "Background."
     2.  **Specialist Segmentation:**
@@ -59,6 +59,7 @@ I approached this problem by iterating through four distinct architectural strat
 1. Clone the repository:
    ```bash
    git clone https://github.com/KhoaLeQuangMinh/Liver_Segmentation.git
+
 
 
 
